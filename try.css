@@ -1,11 +1,17 @@
 body {
   margin: 0;
-  font-family: arial, sans-serif;
   line-height: 1.5;
-    color: aqua
+    color: aqua;
+       
+font-family: 'Assistant', sans-serif;
+    font-size: 40px
+    
 }
 img {
   max-width: 100%;
   width: auto;
   height: auto;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
 }

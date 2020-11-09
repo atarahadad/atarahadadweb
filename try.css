@@ -20,6 +20,7 @@ h1 {
 }
 
 h2 {
-    color: blueviolet
+    color: blueviolet;
+    font-weight: 700; 
 }
 

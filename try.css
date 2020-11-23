@@ -32,9 +32,20 @@ h2 {
     margin: auto;
 }
 
-.<cta</cta> {
+.cta {
     background: beige;
     font-size: 21px;
     text-align: center;
     padding: 20px;
+}
+.cta h3 {
+    color: deeppink;  
+}
+
+.button {
+    background: blueviolet;
+    color: #fff;
+  text-decoration: none;
+  padding: 14px;
+  display: inline-block;
 }

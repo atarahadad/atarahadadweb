@@ -18,7 +18,7 @@ img {
 h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 100px;
-    color: aqua;
+    color: #8ec7b8;
 }
 
 h2 {
@@ -33,13 +33,15 @@ h2 {
 }
 
 .cta {
-    background: beige;
+    background: #d89a4f;
     font-size: 21px;
-    text-align: center;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
 }
 .cta h3 {
-    color: deeppink;  
+    color: #415f79;  
 }
 
 .button {
@@ -49,3 +51,11 @@ h2 {
   padding: 14px;
   display: inline-block;
 }
+.alignleft {
+  max-width: 50%;
+  float: left;
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+

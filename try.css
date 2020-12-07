@@ -40,22 +40,35 @@ h2 {
     margin-bottom: 50px;
     overflow: hidden;
 }
+
 .cta h3 {
-    color: #415f79;  
+    color: #415f79;
 }
 
 .button {
-    background: blueviolet;
+    background: red;
     color: #fff;
-  text-decoration: none;
-  padding: 14px;
-  display: inline-block;
+    text-decoration: none;
+    padding: 14px;
+    display: inline-block;
 }
+
 .alignleft {
-  max-width: 50%;
-  float: left;
-  margin-right: 14px;
-  margin-bottom: 14px;
+    max-width: 50%;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
 }
 
-
+.news {
+    padding: 60px;
+    background: url(img/kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+.nes h2{
+    color: cadetblue;
+}

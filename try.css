@@ -62,13 +62,39 @@ h2 {
 
 .news {
     padding: 60px;
-    background: url(img/kitchen.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/kitchen.jpg);
     background-position: center;
     background-size: cover;
-    padding: 60px;
     text-align: center;
     font-size: 24px;
+    color: white;
 }
+
 .news h2 {
-    color: cadetblue;
+    color:white;
+}
+.news .button{
+    padding: 5px 30px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #fff;
+}
+input {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 1px solid;
+    padding: 5px;
+}
+.news input{
+    background: transparent;
+}
+label{
+    margin-bottom: 20px;
+    display: block;
+}
+label span{
+    display: inline-block;
+    width: 100px;
 }

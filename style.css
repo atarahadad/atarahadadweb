@@ -1,0 +1,33 @@
+body {
+    font-family:
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family:
+}
+
+.about {
+    background:#D1F2FB;
+    font-size:21px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.about .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}

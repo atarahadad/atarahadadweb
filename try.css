@@ -75,11 +75,20 @@ h2 {
 }
 .news .button{
     padding: 5px 30px;
-    background: none;
     display: block;
     margin: 20px auto;
     border: 2px solid #fff;
+    background: none;
 }
+input:focus {
+  outline: 0;
+  background: rgba(0,0,0,0.5);
+}
+.news .button:hover {
+  background: #fff;
+  color: #000;
+}
+
 input {
     font: inherit;
     color: inherit;

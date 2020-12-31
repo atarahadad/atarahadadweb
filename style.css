@@ -1,17 +1,17 @@
 body {
-    font-family:
+    font-family: 'Rubik', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    font-family:
+h1,h2,h3,h4 {
+    font-family: 'Amatic SC', cursive;
+}
+h1{
+    font-size: 80px;
 }
 
 .about {
-    background:#D1F2FB;
-    font-size:21px;
+    background: #D1F2FB;
+    font-size: 21px;
 }
 
 .container {

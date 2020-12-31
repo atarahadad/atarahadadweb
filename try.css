@@ -85,6 +85,7 @@ input:focus {
   background: rgba(0,0,0,0.5);
 }
 .news .button:hover {
+    outline: 0;
   background: #fff;
   color: #000;
 }

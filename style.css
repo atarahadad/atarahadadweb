@@ -93,8 +93,12 @@ h2{
 a{
     color: black;
 }
+.contact a{
+    text-decoration: none;
+}
 .contact a:hover{
     color: white;
+    text-decoration: underline;
 }
 .contact ul {
   list-style: none;

@@ -52,6 +52,7 @@ img {
 
 .button {
     color: black;
+    background: white;
     text-decoration: none;
     border: 1px solid #000;
     padding: 14px 20px;

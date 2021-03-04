@@ -25,15 +25,45 @@ img {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
 }
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+h2:after {
+  content: "";
+  border-bottom: 3px solid green;
+  width: 80px;
+  display: block;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
 
-.about {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/coffee%20shop.jpg)center top;
+.button {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 15px 30px;
+    display: inline-block;
+}
+
+.button:hover {
+    background: green;
+    color: white;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/coffee%20shop.jpg)center top;
     background-size: cover;
+    background-position: top;
     background-attachment: fixed;
     font-size: 20px;
+    text-align: center;
+    padding: 30px 0;
     margin: auto;
     color: lightpink;
 }
@@ -44,15 +74,7 @@ h1 {
     padding: 10px;
 }
 
-.about .container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
-    grid-gap: 0px;
-}
 
-.container {
-    max-width: 1000px;
-    margin: auto;
+p {
+    font-size: 20px;
 }
-

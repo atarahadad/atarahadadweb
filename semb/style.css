@@ -34,7 +34,7 @@ h2{
 }
 h2:after {
   content: "";
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid #42AD4A;
   width: 80px;
   display: block;
 }
@@ -52,7 +52,7 @@ h2:after {
 }
 
 .button:hover {
-    background: green;
+    background:#42AD4A;
     color: white;
 }
 
@@ -62,7 +62,6 @@ h2:after {
     background-position: top;
     background-attachment: fixed;
     font-size: 20px;
-    text-align: center;
     padding: 30px 0;
     margin: auto;
     color: lightpink;
@@ -77,4 +76,10 @@ h2:after {
 
 p {
     font-size: 20px;
+}
+.about .banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
 }

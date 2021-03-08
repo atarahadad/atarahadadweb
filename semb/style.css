@@ -49,11 +49,12 @@ h2:after {
     background: black;
     padding: 15px 30px;
     display: inline-block;
+    border-radius: 10px;
 }
 
 .button:hover {
     background:#42AD4A;
-    color: white;
+    color: black;
 }
 
 .banner {
@@ -61,6 +62,7 @@ h2:after {
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
+    text-align: right;
     font-size: 20px;
     padding: 30px 0;
     margin: auto;
@@ -77,9 +79,4 @@ h2:after {
 p {
     font-size: 20px;
 }
-.about .banner {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
-    grid-gap: 20px;
-}
+

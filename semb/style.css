@@ -86,6 +86,7 @@ p {
 }
 .our-story{
     padding: 56px 0px;
+    position: relative;
 }
 
 .features {
@@ -123,6 +124,16 @@ footer {
 footer a {
   color: #42AD4A;
 }
+footer img{
+    width: 30px;
+}
+.social a {
+    margin: 0 3px;
+}
+
+.social {
+    margin: 20px;
+}
 .custom-shape-divider-bottom-1617556873 {
     position: absolute;
     bottom: 0;
@@ -143,3 +154,4 @@ footer a {
 .custom-shape-divider-bottom-1617556873 .shape-fill {
     fill: #FFFFFF;
 }
+

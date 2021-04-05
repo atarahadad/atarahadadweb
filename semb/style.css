@@ -36,9 +36,17 @@ h2 {
 
 h2:after {
     content: "";
-    border-bottom: 3px solid #42AD4A;
+    border-bottom: 4px solid #42AD4A;
     width: 80px;
     display: block;
+    margin: auto;
+}
+.features h2:after {
+    content: "";
+    border-bottom: 4px solid #42AD4A;
+    width: 120px;
+    display: block;
+    margin: auto;
 }
 
 .container {
@@ -70,7 +78,7 @@ h2:after {
     font-size: 20px;
     padding: 30px 0;
     margin: auto;
-    color: lightpink;
+    color: #e5bf68;
     position: relative;
 }
 
@@ -80,19 +88,43 @@ h2:after {
     padding: 10px;
 }
 
+header {
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
 
 p {
     font-size: 20px;
 }
-.our-story{
+
+.our-story {
     padding: 56px 0px;
     position: relative;
 }
 
-.features {
-    background: lightpink;
+.our-story .container {
     text-align: center;
-    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.features {
+    background: #e5bf68;
+    text-align: center;
+    padding: 20px;
 }
 
 .features ul {
@@ -107,26 +139,35 @@ p {
     max-width: 100px;
 }
 
+.features h2 {
+    color: white;
+}
+
 .features h2:after {
     margin: auto;
 }
 
 
- .features h3 {
-    color: saddlebrown;   
+.features h3 {
+    color: black;
+    font-weight: 700;
 }
+
 footer {
-  background: #000;
-  color: #fff;
-  text-align: center;
-  padding: 5px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
 }
+
 footer a {
-  color: #42AD4A;
+    color: #42AD4A;
 }
-footer img{
+
+footer img {
     width: 30px;
 }
+
 .social a {
     margin: 0 3px;
 }
@@ -134,7 +175,8 @@ footer img{
 .social {
     margin: 20px;
 }
-.custom-shape-divider-bottom-1617556873 {
+
+.custom-shape-divider-bottom-1617641121 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -144,14 +186,34 @@ footer img{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1617556873 svg {
+.custom-shape-divider-bottom-1617641121 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 53px;
+    height: 56px;
 }
 
-.custom-shape-divider-bottom-1617556873 .shape-fill {
+.custom-shape-divider-bottom-1617641121 .shape-fill {
     fill: #FFFFFF;
 }
 
+.custom-shape-divider-bottom-1617641432 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1617641432 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-bottom-1617641432 .shape-fill {
+    fill: #e5bf68;
+}

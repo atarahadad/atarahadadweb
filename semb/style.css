@@ -39,7 +39,6 @@ h2:after {
     border-bottom: 4px solid #42AD4A;
     width: 80px;
     display: block;
-    margin: auto;
 }
 .features h2:after {
     content: "";
@@ -61,6 +60,7 @@ h2:after {
     padding: 15px 30px;
     display: inline-block;
     border-radius: 10px;
+    transition: 1s;
 }
 
 .button:hover {
@@ -113,12 +113,20 @@ p {
 
 .our-story {
     padding: 56px 0px;
-    position: relative;
 }
 
 .our-story .container {
-    text-align: center;
     padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap:40px; 
+}
+.our-story img{
+    display:block;
+    margin:auto;
+    max-width: 100%;
+    
 }
 
 .features {
@@ -136,7 +144,7 @@ p {
 }
 
 .features img {
-    max-width: 100px;
+    max-width: 80px;
 }
 
 .features h2 {
@@ -195,25 +203,4 @@ footer img {
 
 .custom-shape-divider-bottom-1617641121 .shape-fill {
     fill: #FFFFFF;
-}
-
-.custom-shape-divider-bottom-1617641432 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1617641432 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 56px;
-}
-
-.custom-shape-divider-bottom-1617641432 .shape-fill {
-    fill: #e5bf68;
 }

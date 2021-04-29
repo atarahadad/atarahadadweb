@@ -32,6 +32,7 @@ h1 {
 h2 {
     font-size: 30px;
     font-weight: 700;
+    padding: 10px;
 }
 
 h2:after {
@@ -40,6 +41,7 @@ h2:after {
     width: 80px;
     display: block;
 }
+
 .features h2:after {
     content: "";
     border-bottom: 4px solid #42AD4A;
@@ -82,6 +84,57 @@ h2:after {
     position: relative;
 }
 
+.menu .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/menu1.jpg)center top;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    text-align: right;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 0;
+    margin: auto;
+    color: #e5bf68;
+    position: relative;
+}
+
+.price-list {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    columns: 2;
+    column-gap: 40px;
+}
+
+.price-list li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.line {
+    flex: 1;
+    border-bottom: 2px solid black;
+    height: 1em;
+    margin: 0 5px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.price-wrap img {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+.price-wrap h2{
+  text-align: center;
+  margin-top: 0;
+}
+.price-wrap h2:after {
+  margin: auto;
+}
+
 .logo {
     display: block;
     margin: 10px auto;
@@ -91,9 +144,11 @@ h2:after {
 header {
     text-align: center;
 }
-header .container{
+
+header .container {
     max-width: 600px;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -108,11 +163,13 @@ nav a {
     display: block;
     border-bottom: 3px solid transparent;
 }
-nav a:hover{
-border-bottom-color: white;
+
+nav a:hover {
+    border-bottom-color: white;
 }
-current a{
-font-weight: bold;
+
+current a {
+    font-weight: bold;
 }
 
 p {
@@ -127,12 +184,16 @@ p {
     padding-bottom: 20px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    align-items: center; 
+    align-items: center;
 }
-.our-story img{
-    display:block;
+.food .container{
+    padding: 20px;
+}
+
+.our-story img {
+    display: block;
     margin-right: auto;
-    max-width: 100%;   
+    max-width: 100%;
 }
 
 .features {

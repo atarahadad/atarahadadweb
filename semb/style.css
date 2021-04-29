@@ -37,14 +37,14 @@ h2 {
 
 h2:after {
     content: "";
-    border-bottom: 4px solid #42AD4A;
+    border-bottom: 4px solid #8CA85E;
     width: 80px;
     display: block;
 }
 
 .features h2:after {
     content: "";
-    border-bottom: 4px solid #42AD4A;
+    border-bottom: 4px solid #8CA85E;
     width: 120px;
     display: block;
     margin: auto;
@@ -66,7 +66,7 @@ h2:after {
 }
 
 .button:hover {
-    background: #42AD4A;
+    background: #8CA85E;
     color: black;
 }
 
@@ -236,7 +236,7 @@ footer {
 }
 
 footer a {
-    color: #42AD4A;
+    color: #8CA85E;
 }
 
 footer img {

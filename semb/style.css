@@ -121,7 +121,9 @@ h2:after {
 .price {
     font-weight: bold;
 }
-
+.price-wrap{
+    padding: 40px 0;
+}
 .price-wrap img {
     width: 100px;
     margin: auto;
@@ -134,7 +136,11 @@ h2:after {
 .price-wrap h2:after {
   margin: auto;
 }
-
+.contact .price-list{
+    columns: 1;
+    max-width: 400px;
+    margin: auto;
+}
 .logo {
     display: block;
     margin: 10px auto;
@@ -186,10 +192,6 @@ p {
     grid-template-columns: 2fr 1fr;
     align-items: center;
 }
-.food .container{
-    padding: 20px;
-}
-
 .our-story img {
     display: block;
     margin-right: auto;

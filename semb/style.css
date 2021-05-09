@@ -174,7 +174,7 @@ nav a:hover {
     border-bottom-color: white;
 }
 
-current a {
+.current a {
     font-weight: bold;
 }
 
@@ -252,7 +252,31 @@ footer img {
 .social {
     margin: 20px;
 }
-
+.team-wrap {
+  background: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+.team-wrap h2:after {
+  margin: auto;
+}
+.team {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team li {
+  margin: 20px;
+  max-width: 250px;
+}
+.team h3, .team p {
+  margin: 0;
+}
+.team p {
+  color: black;
+}
 .custom-shape-divider-bottom-1617641121 {
     position: absolute;
     bottom: 0;

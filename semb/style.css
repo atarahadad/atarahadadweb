@@ -339,7 +339,18 @@ form {
     width: 400px;
     margin: auto;
 }
-
+.fotorama_dot .fotorama_dot {
+    border-color: #8CA85E;
+}
+.fotowrap {
+    max-width: 500px;
+    text-align: center;
+    margin: 40px auto;
+}
+.slide{
+    background: #e5bf68;
+    padding: 20px;
+}
 input,textarea {
     font: inherit;
     color: inherit;

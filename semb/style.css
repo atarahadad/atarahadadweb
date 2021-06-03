@@ -230,7 +230,22 @@ p {
     margin-right: auto;
     max-width: 100%;
 }
-
+.img-wrap {
+  position: relative;
+}
+.caption {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  color: #fff;
+  padding: 5px;
+  padding-top: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 .features {
     background: #e5bf68;
     text-align: center;
@@ -321,7 +336,7 @@ footer img {
     padding: 20px;
 }
 form {
-    width: 350px;
+    width: 400px;
     margin: auto;
 }
 

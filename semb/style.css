@@ -229,6 +229,10 @@ p {
     display: block;
     margin-right: auto;
     max-width: 100%;
+    filter: grayscale(1);
+}
+.our-story img:hover{
+    filter: grayscale(0);
 }
 .img-wrap {
   position: relative;
@@ -302,19 +306,13 @@ footer img {
 }
 
 .team-wrap {
-    background:#b2afa8;
+    background:#e3ded3;
     padding: 30px 0;
     text-align: center;
 }
 
 .team-wrap h2:after {
     margin: auto;
-}
-.team .img{
-    filter: grayscale(1);
-}
-.team .img:hover{
-    filter: grayscale(0);
 }
 .team {
     list-style: none;

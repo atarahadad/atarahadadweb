@@ -27,6 +27,7 @@ img {
 h1 {
     font-size: 60px;
     font-weight: 700;
+    animation: appear 1s ease alternate 1;
 }
 
 h2 {
@@ -48,6 +49,10 @@ h2:after {
     width: 120px;
     display: block;
     margin: auto;
+}
+
+.banner h1 {
+    text-shadow: 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -97,8 +102,9 @@ h2:after {
     color: #e5bf68;
     position: relative;
 }
-.contact .banner{
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/about.jpg)center top;
+
+.contact .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/about.jpg)center top;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -108,10 +114,11 @@ h2:after {
     padding: 30px 0;
     margin: auto;
     color: #e5bf68;
-    position: relative;   
+    position: relative;
 }
-.about .banner{
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/pink.jpg)center top;
+
+.about .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/pink.jpg)center top;
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -121,7 +128,7 @@ h2:after {
     padding: 30px 0;
     margin: auto;
     color: #e5bf68;
-    position: relative;   
+    position: relative;
 }
 
 .price-list {
@@ -144,6 +151,24 @@ h2:after {
     margin: 0 5px;
 }
 
+.breakfast {
+    background: #e3ded3;
+}
+
+.breakfast .button{
+ text-decoration: none;
+    color: black;
+    background: #e5bf68;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: 1s;   
+}
+
+.breakfast .button:hover {
+    background: #8CA85E;
+    color: black;
+}
 .price {
     font-weight: bold;
 }
@@ -230,26 +255,47 @@ p {
     margin-right: auto;
     max-width: 100%;
 }
+
 .img-wrap {
-  position: relative;
+    position: relative;
 }
+
 .caption {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: linear-gradient(transparent, rgba(0,0,0,0.7));
-  color: #fff;
-  padding: 5px;
-  padding-top: 40px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    color: #fff;
+    padding: 5px;
+    padding-top: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
+
 .features {
     background: #e5bf68;
     text-align: center;
     padding: 20px;
+}
+
+.features a {
+    text-decoration: none;
+}
+
+.features a:hover img {
+    animation: pulse .3s linear alternate infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    100 {
+        transform: rotate(-5deg);
+    }
 }
 
 .features ul {
@@ -302,7 +348,7 @@ footer img {
 }
 
 .team-wrap {
-    background:#e3ded3;
+    background: #e3ded3;
     padding: 30px 0;
     text-align: center;
 }
@@ -310,6 +356,7 @@ footer img {
 .team-wrap h2:after {
     margin: auto;
 }
+
 .team {
     list-style: none;
     padding: 0;
@@ -318,38 +365,73 @@ footer img {
     justify-content: center;
 }
 
+.team-wrap img {
+    filter: sepia(0.4);
+}
+
+.team-wrap img:hover {
+    filter: sepia(0);
+}
+
 .team li {
     margin: 20px;
     max-width: 250px;
 }
-.team h3,.team p {
+
+.team h3,
+.team p {
     margin: 0;
 }
 
 .team p {
     color: black;
 }
-.from-wrap{
+
+.from-wrap {
     background: #e5bf68;
     padding: 20px;
 }
+
 form {
     width: 400px;
     margin: auto;
 }
-.fotorama_dot .fotorama_dot {
-    border-color: #8CA85E;
+
+.location {
+    text-align: center;
+    background: #e3ded3;
+    padding: 20px;
 }
+.location h2:after {
+    content: "";
+    border-bottom: 4px solid #8CA85E;
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+.map .location {
+    background: white;
+    padding: 40px;
+}
+
+.fotorama_dot .fotorama_dot {
+    border-color: black;
+}
+
 .fotowrap {
     max-width: 600px;
     text-align: center;
     margin: 40px auto;
 }
-.slide{
+
+.slide {
     background: #e5bf68;
     padding: 20px;
 }
-input,textarea {
+
+input,
+textarea {
     font: inherit;
     color: inherit;
     display: block;
@@ -359,6 +441,7 @@ input,textarea {
     box-sizing: border-box;
     background: white;
 }
+
 placeholder {
     color: black;
     opacity: 0.5;
@@ -379,10 +462,23 @@ label {
     grid-gap: 30px;
 }
 
-input:focus,textarea:focus {
+input:focus,
+textarea:focus {
     outline: 0;
     background: #fff;
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .custom-shape-divider-bottom-1617641121 {

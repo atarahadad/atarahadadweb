@@ -198,6 +198,11 @@ h2:after {
     margin: auto;
 }
 
+.our-story .price-list{
+    columns: 1;
+    max-width: 600px;
+}
+
 .logo {
     display: block;
     margin: 10px auto;
@@ -389,7 +394,7 @@ footer img {
 
 .from-wrap {
     background: #e5bf68;
-    padding: 20px;
+    padding: 30px;
 }
 
 form {
@@ -411,10 +416,20 @@ form {
 }
 
 .map .location {
-    background: white;
-    padding: 40px;
+    background: #e5bf68;
+    padding: 20px;
 }
 
+.map a:hover img{
+     animation: pulse .3s linear alternate infinite;
+}
+.map img{
+width: 100px;
+}
+
+.map h2{
+    padding: 0;
+}
 .fotorama_dot .fotorama_dot {
     border-color: black;
 }
